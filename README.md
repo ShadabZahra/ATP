@@ -1,4 +1,4 @@
-# ATP – UCF101 & HMDB51 Zero-Shot Evaluation (Custom Setup)
+# ATP – UCF101 & HMDB51 Zero-Shot Evaluation
 
 This repository provides a simplified pipeline to evaluate **ATP** on the **UCF101** and **HMDB51** datasets using zero-shot evaluation.
 The workflow includes environment setup, dataset preparation, frame extraction, pretrained model loading, configuration updates, and evaluation scripts.
