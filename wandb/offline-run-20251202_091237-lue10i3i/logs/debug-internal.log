@@ -1,0 +1,12 @@
+{"time":"2025-12-02T09:12:37.852457068+09:00","level":"INFO","msg":"stream: starting","core version":"0.21.1"}
+{"time":"2025-12-02T09:12:37.976190405+09:00","level":"WARN","msg":"GraphQL client is nil, skipping feature loading"}
+{"time":"2025-12-02T09:12:37.976297687+09:00","level":"INFO","msg":"stream: created new stream","id":"lue10i3i"}
+{"time":"2025-12-02T09:12:37.976317845+09:00","level":"INFO","msg":"stream: started","id":"lue10i3i"}
+{"time":"2025-12-02T09:12:37.976369753+09:00","level":"INFO","msg":"handler: started","stream_id":"lue10i3i"}
+{"time":"2025-12-02T09:12:37.976387045+09:00","level":"INFO","msg":"sender: started","stream_id":"lue10i3i"}
+{"time":"2025-12-02T09:12:37.976372698+09:00","level":"INFO","msg":"writer: started","stream_id":"lue10i3i"}
+{"time":"2025-12-02T09:12:37.97679859+09:00","level":"WARN","msg":"runupserter: server does not expand metric globs but the x_server_side_expand_glob_metrics setting is set; ignoring"}
+{"time":"2025-12-02T09:13:16.019645342+09:00","level":"INFO","msg":"stream: closing","id":"lue10i3i"}
+{"time":"2025-12-02T09:13:16.019825261+09:00","level":"INFO","msg":"handler: closed","stream_id":"lue10i3i"}
+{"time":"2025-12-02T09:13:16.019882338+09:00","level":"INFO","msg":"sender: closed","stream_id":"lue10i3i"}
+{"time":"2025-12-02T09:13:16.019891455+09:00","level":"INFO","msg":"stream: closed","id":"lue10i3i"}

@@ -1,0 +1,36 @@
+pretrain:  '/home/netsyslab/Downloads/vit-b-16-8f.pt'   ## Set 'pretrain' to your Kinetics pretrained checkpoint.
+seed: 72
+data:
+    dataset: hmdb51
+    modality: RGB
+    num_segments: 8
+    root: '/home/HMDB_frames/' ## Set 'root' to your extracted video frames location.
+    seg_length: 1
+    split: 1
+    batch_size: 8
+    workers: 8
+    num_classes: 51
+    image_tmpl: 'image_{:04d}.jpg'
+    val_list1: 'lists/hmdb51/val_rgb_split_1 hmdb.txt'
+    val_list2: 'lists/hmdb51/val_rgb_split_2 hmdb.txt'
+    val_list3: 'lists/hmdb51/val_rgb_split_3 hmdb.txt'
+    label_list: 'lists/hmdb51/hmdb51_labels.csv'
+    description_list: 'lists/hmdb51/hmdb_descriptions.csv'
+    index_bias: 1
+    input_size: 224
+    randaug:
+        N: 0 
+        M: 0 
+network:
+    arch: ViT-B/16  
+    init: True
+    drop_out: 0.0
+    emb_dropout: 0.0
+    type: clip_hmdb
+    sim_header: "meanP"
+    fix_text: False
+    fix_img: False
+    describe:
+logging:
+    print_freq: 10
+    eval_freq: 1

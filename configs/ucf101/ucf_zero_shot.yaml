@@ -1,0 +1,36 @@
+pretrain:  '/home/Downloads/vit-b-16-8f.pt' ## Set 'pretrain' to your Kinetics pretrained checkpoint.
+seed: 42
+data:
+    dataset: ucf101
+    modality: RGB
+    num_segments: 8
+    root: '/home/UCF_frames/' ## Set 'root' to your extracted video frames location.
+    seg_length: 1
+    split: 1
+    batch_size: 8
+    workers: 8
+    num_classes: 101
+    image_tmpl: 'image_{:04d}.jpg'
+    val_list1: 'lists/ucf101/val_rgb_split_1.txt'
+    val_list2: 'lists/ucf101/val_rgb_split_2.txt'
+    val_list3: 'lists/ucf101/val_rgb_split_3.txt'
+    label_list: 'lists/ucf101/ucf_labels.csv'
+    description_list: 'lists/ucf101/ucf_descriptions.csv'
+    index_bias: 1
+    input_size: 224
+    randaug:
+        N: 0
+        M: 0 
+network:
+    arch: ViT-B/16 
+    init: True
+    drop_out: 0.0
+    emb_dropout: 0.0 
+    type: clip_ucf
+    sim_header: "meanP" 
+    fix_text: False
+    fix_img: False
+    describe:
+logging:
+    print_freq: 10
+    eval_freq: 1

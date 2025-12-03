@@ -1,0 +1,14 @@
+{"time":"2025-12-02T10:13:04.494135846+09:00","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpk7vbyq3z/port-895611.txt","pid":895611,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-12-02T10:13:04.494432367+09:00","level":"INFO","msg":"server: will exit if parent process dies","ppid":895611}
+{"time":"2025-12-02T10:13:04.494428189+09:00","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-895611-895707-2861085239/socket","Net":"unix"}}
+{"time":"2025-12-02T10:13:04.684467216+09:00","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-12-02T10:13:04.704113368+09:00","level":"INFO","msg":"handleInformInit: received","streamId":"4wukbor2","id":"1(@)"}
+{"time":"2025-12-02T10:13:04.832514302+09:00","level":"INFO","msg":"handleInformInit: stream started","streamId":"4wukbor2","id":"1(@)"}
+{"time":"2025-12-02T10:14:33.983166287+09:00","level":"INFO","msg":"handleInformTeardown: server teardown initiated","id":"1(@)"}
+{"time":"2025-12-02T10:14:33.983256478+09:00","level":"INFO","msg":"connection: closing","id":"1(@)"}
+{"time":"2025-12-02T10:14:33.983288618+09:00","level":"INFO","msg":"server is shutting down"}
+{"time":"2025-12-02T10:14:33.983370924+09:00","level":"INFO","msg":"connection: closed successfully","id":"1(@)"}
+{"time":"2025-12-02T10:14:33.983369631+09:00","level":"INFO","msg":"server: listener closed","addr":{"Name":"/tmp/wandb-895611-895707-2861085239/socket","Net":"unix"}}
+{"time":"2025-12-02T10:14:34.00047817+09:00","level":"INFO","msg":"handleInformTeardown: server shutdown complete","id":"1(@)"}
+{"time":"2025-12-02T10:14:34.00049924+09:00","level":"INFO","msg":"connection: ManageConnectionData: connection closed","id":"1(@)"}
+{"time":"2025-12-02T10:14:34.000510621+09:00","level":"INFO","msg":"server is closed"}
